@@ -1,0 +1,90 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.8bQP-WF6Tc-b_BFe9vJ0tgHaEK&pid=Api&P=0&h=180');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color:whitesmoke;
+}
+
+/* Header styles */
+header {
+    background-color: black;
+    color:whitesmoke;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+/* Main styles */
+main {
+    margin: 20px;
+}
+
+
+/* Signup and signin section styles */
+#signup-signin {
+    display: flex;
+    justify-content: space-around;
+}
+
+.signup, .signin {
+    width: 45%;
+    background-color: rgba(255, 255, 255, 0.285);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #9d03037a;
+}
+
+.signup h2, .signin h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.signup p, .signin p {
+    margin-bottom: 15px;
+}
+
+.signup a, .signin a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: wheat;
+    color: #0000008b;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.signup a:hover, .signin a:hover {
+    background-color: #9d0303;
+}
+/* Description section styles */
+#description {
+    margin-bottom: 100px;
+    margin-top: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color:rgb(78, 78, 73);
+    color:whitesmoke;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}

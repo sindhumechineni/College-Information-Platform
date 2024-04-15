@@ -1,0 +1,55 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    background-image: url('https://images-platform.99static.com//Rac6qBOFiibAT9NlDYycSeP4mqo=/586x258:1397x1069/fit-in/500x500/99designs-contests-attachments/119/119313/attachment_119313135'); /* Replace 'background-image-url.jpg' with the actual URL of your background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+}
+
+/* Header styles */
+header {
+    background-color: #101011;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header img {
+    width: 100px; /* Adjust the width as needed */
+}
+
+header h1 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+/* Main styles */
+main {
+    padding: 20px;
+}
+
+.college-details {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.college-details h2 {
+    margin-top: 0;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #686a6c;
+    color: #fff;
+    position: fixed; /* Fixed position to stick to the bottom */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
